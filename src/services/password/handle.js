@@ -5,6 +5,7 @@ async function handle() {
   let password = "";
 
   const passwordLength = process.env.PASSWORD_LENGTH;
+
   characters = await permittedCharacters();
 
   for (let i = 0; i < passwordLength; i++) {

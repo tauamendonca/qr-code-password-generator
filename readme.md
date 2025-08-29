@@ -6,66 +6,40 @@
       src="https://raw.githubusercontent.com/digitalinnovationone/template-github-trilha/main/.github/assets/logo.webp" 
       width="100px" 
     />
-    <h1>Gerador de QRcode para e-commerce</h1>
+    <h1>DIO NodeJS - Utilidades para E-Commerce</h1>
+    <h3>Gerador de QRcode e Passwords, cálculo de taxas e conversor de moedas 
   </p>
 </div>
 <!--END_SECTION:header-->
-
-<p align="center">
-  <img src="https://img.shields.io/static/v1?label=DIO&message=Education&color=E94D5F&labelColor=202024" alt="DIO Project" />
-  <a href="NIVEL"><img  src="https://img.shields.io/static/v1?label=Nivel&message=Basico&color=E94D5F&labelColor=202024" alt="Nivel"></a>
-
-</p>
 
 <!--  -->
 <table align="center">
 <thead>
   <tr>
     <td>
-        <p align="center">Expert</p>
-        <a href="https://github.com/felipeAguiarCode">
-        <img src="https://avatars0.githubusercontent.com/u/37452836?v=3&s=115" alt="@felipeAguiarCode"><br>
-      </a>
+        <p align="center"> <h4> Professor: Felipe Silva Aguiar</h4></p>
     </td>
-    <td colspan="3">
-    <p>🎉 10y+ em sistemas comerciais com .NET C# e NODE.JS.
-      <br/>
-     🌟 Desenvolvedor fullstack - Coordenador de educação na DIO
-      <br/>
-    👨‍💻 Foco em front-ends SPA com React, Angular e Vue.js
-    </p>
-      <a 
-      href="https://www.linkedin.com/in/felipe-me/" 
-      align="center">
-           <img 
-            align="center" 
-            alt="Material de Apoio" 
-            src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
-            >
-        </a>
-        <a href="https://www.instagram.com/felipeaguiar.exe/" target="_blank">
-            <img 
-              align="center" 
-              alt="Instagram" 
-              src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"
-            >
-        </a>
-    </td>
-  </tr>
+      </tr>
+       <tr>
+    <td>
+Conheça o <a href = "https://github.com/digitalinnovationone/formacao-nodejs/tree/main/projeto-qrcode">projeto original</a>, o código que apresento aqui é uma resposta ao projeto proposto pela DIO no bootcamp MeuTudo Mobile Developer<br>
+ </td>
+      </tr>
 </thead>
 </table>
 <!--  -->
 
-<br/>
-<br/>
 
 ## 💻 Sobre o Projeto
 
-Vamos construir um kit de utilidades para um e-commerce, o projeto deve ser escalável para ter adição de novas features.
+O objetivo desse projeto é construir um kit de utilidades para um e-commerce, de maneira escalável para ter adição de novas features.
+O projeto consiste em um gerador de QR code e um gerador de passwords. 
+O gerador de QR code pode gerar 2 tipos de código, um para ser copiado como imagem e um estilo terminal. 
+Já o gerador de senhas recebe seus parâmetros para gerar a senha a partir de um arquivo de variáveis ambiente, podendo gerar senhas com diferentes possibilidades.
 
 ## 📚 Pré-requisitos de Habilidades e Níveis de Conhecimento
 
-Antes de ingressar neste conteúdo, é necessário possuir conhecimento prévio nas seguintes áreas:
+Para compreender esse projeto foram necessárias as seguintes habilidades:
 
 - Lógica de programação
 - Javascript | Básico
@@ -74,25 +48,17 @@ Antes de ingressar neste conteúdo, é necessário possuir conhecimento prévio 
 - NPM, Packages, Dependencies
 - Variáveis ambiente (.env)
 
-## 🛠️ Habilidades e Sub-habilidades que vamos aprender neste conteúdo
-
-- Como gerar qrcode com node
-- Como lidar com várias dependências de um projeto
-- Como pensar em projetos por camadas
-
 ## 🎯 Objetivos e Resultados Esperados
 
 Após a conclusão do curso/projeto, os estudantes estarão aptos a:
 
-- Criar projetos nodejs que gerem multiplas dependências
+- Como gerar qrcode com NodeJS
+- Como lidar com várias dependências de um projeto
+- Como pensar em projetos por camadas
+- Criar projetos NodeJS que gerem multiplas dependências
 
 <!--START_SECTION:footer-->
 
-<br />
-<br />
+## 🏆 Desafios propostos realizados
 
-<p align="center">
-  <a href="https://www.dio.me/" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/digitalinnovationone/template-github-trilha/main/.github/assets/footer.png" alt="banner"/>
-  </a>
-</p>
+Foram realizadas as seguintes modificações no código: 
