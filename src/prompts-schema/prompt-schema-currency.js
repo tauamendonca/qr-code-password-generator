@@ -7,15 +7,16 @@ const promptSchemaCurrency = [
       ` 
       Select the currency you are using:
         (1) BRAZILIAN REAL
-        (2) EUROPEAN EURO
-        (3) CANADIAN DOLLAR
-        (4) CHINESE YUAN 
-        (5) JAPANESE YEN
-        (6) USA DOLLAR
+        (2) CANADIAN DOLLAR
+        (3) CHINESE YUAN 
+        (4) EUROPEAN EURO
+        (5) INDIAN RUPPEE
+        (6) JAPANESE YEN
+        (7) USA DOLLAR
       `
     ),
-    pattern: /^[1-6]+$/,
-    message: chalk.red.italic("Choose only from 1 to 6"),
+    pattern: /^[1-7]+$/,
+    message: chalk.red.italic("Choose only from 1 to 7"),
     required: true,
   },
   {
@@ -24,15 +25,16 @@ const promptSchemaCurrency = [
       ` 
       Select the currency you want to convert to:
         (1) BRAZILIAN REAL
-        (2) EUROPEAN EURO
-        (3) CANADIAN DOLLAR
-        (4) CHINESE YUAN 
-        (5) JAPANESE YEN
-        (6) USA DOLLAR
+        (2) CANADIAN DOLLAR
+        (3) CHINESE YUAN 
+        (4) EUROPEAN EURO
+        (5) INDIAN RUPPEE
+        (6) JAPANESE YEN
+        (7) USA DOLLAR
       `
     ),
-    pattern: /^[1-6]+$/,
-    message: chalk.red.italic("Choose only from 1 to 6"),
+    pattern: /^[1-7]+$/,
+    message: chalk.red.italic("Choose only from 1 to 7"),
     required: true,
   },
   {
