@@ -1,6 +1,6 @@
 import chalk from "chalk";
 
-const promptSchemaQRCode = [
+const promptSchemaInterest = [
     {
     name: "amount",
     description: chalk.yellow(`
@@ -35,4 +35,4 @@ const promptSchemaQRCode = [
   },
 ];
 
-export default promptSchemaQRCode;
+export default promptSchemaInterest;
