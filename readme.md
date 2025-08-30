@@ -61,4 +61,10 @@ Após a conclusão do curso/projeto, os estudantes estarão aptos a:
 
 ## 🏆 Desafios propostos realizados
 
-Foram realizadas as seguintes modificações no código: 
+Foram realizadas a seguinte modificação no código, recomendada pelo professor Felipe da DIO: 
+- Adicionar uma calculadora de taxas - onde o usuário irá selecionar um país, inserir o valor de um produto e receber como retorno o valor do produto adicionado das tarifas/taxas correspondentes àquele país.
+
+Além disso, inclui mais essas duas funcionalidades, visto que o foco é e-commerce:
+- conversor de moedas - recebendo valores de uma tabela de valores no arquivo de variáveis ambiente (simulando receber de uma API), e fazendo a conversão a partir da primeira escolha de moeda do usuário e da inserção do valor a ser convertido em comparação com a segunda escolha de moeda. Os valores de conversão foram atualizados pela última vez em 30/08/2025 (são valores reais).
+
+- Calculadora de juros compostos - uma calculadora de juros que recebe um valor inicial (valor do produto ou investimento), uma taxa de juros anual (em percentual), um período de tempo (em anos ou meses) e a frequência de capitalização (anual, semestral, trimestral, mensal ou diária). Essa calculadora serviria tanto para calcular preços de produtos a prazo com juros compostos quanto para empréstimos/financiamentos.
