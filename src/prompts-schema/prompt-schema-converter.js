@@ -2,20 +2,27 @@ import chalk from "chalk";
 
 const promptSchemaQRCode = [
   {
-    name: "link",
-    description: chalk.yellow("Insert link to generate a QR Code"),
-  },
-  {
     name: "type",
     description: chalk.yellow(
       ` 
-      Select QR Code type 
-        (1) NORMAL
-        (2) TERMINAL
+      Select Currency
+        (1) BRAZILIAN REAL
+        (2) EUROPEAN EURO
+        (3) CANADIAN DOLLAR
+        (4) CHINESE YUAN 
+        (5) JAPANESE YEN
+        (6) USA DOLLAR
       `
     ),
     pattern: /^[1-2]+$/,
-    message: chalk.red.italic("Choose only between 1 and 2"),
+    message: chalk.red.italic("Choose only from 1 to 6"),
+    required: true,
+  },
+  {
+    name: "value",
+    description: chalk.yellow("Insert value you would like to convert:"),
+    pattern: /^(?!0\.00$)(?:0\.(?:0[1-9]|[1-9]\d)|[1-9]\d{0,9}(?:\.\d{2})?)$/,
+    message: chalk.red.italic("Please type a valid number with two decimals like 1.00"),
     required: true,
   },
 ];

@@ -1,12 +1,10 @@
-import permittedCharacters from "./utils/permitted-characters.js";
+import * as frequency from "./utils/frequency.js";
 
 async function handle() {
   let characters = [];
   let password = "";
 
   const passwordLength = process.env.PASSWORD_LENGTH;
-
-  characters = await permittedCharacters();
 
   for (let i = 0; i < passwordLength; i++) {
     const index = Math.floor(Math.random() * characters.length);
