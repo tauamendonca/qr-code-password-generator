@@ -2,7 +2,7 @@ import chalk from "chalk";
 
 const promptSchemaCurrency = [
   {
-    name: "type",
+    name: "currencyFrom",
     description: chalk.yellow(
       ` 
       Select the currency you are using:
@@ -20,7 +20,7 @@ const promptSchemaCurrency = [
     required: true,
   },
   {
-    name: "currency",
+    name: "currencyTo",
     description: chalk.yellow(
       ` 
       Select the currency you want to convert to:

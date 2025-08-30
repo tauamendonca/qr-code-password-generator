@@ -17,3 +17,5 @@ const countryTaxes = [
     {ID: '6', name: 'Japan', value: 0.4},
     {ID: '7', name: 'USA', value: 0.8},
 ]
+
+export { currencies, countryTaxes }
