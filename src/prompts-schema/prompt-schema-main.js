@@ -8,12 +8,13 @@ const promptSchemaMain = [
       Select the app you want:
         (1) QRCODE 
         (2) PASSWORD
-        (3) TAX CALCULATOR
+        (3) TAXES CALCULATOR
         (4) CURRENCY CONVERTER
+        (5) COMPOUND INTEREST CALCULATOR
       `
     ),
-    pattern: /^[1-4]+$/,
-    message: chalk.red.italic("Choose only between 1 and 4"),
+    pattern: /^[1-5]+$/,
+    message: chalk.red.italic("Choose only between 1 and 5"),
     required: true,
   },
 ];

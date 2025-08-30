@@ -5,7 +5,7 @@ const promptSchemaCurrency = [
     name: "type",
     description: chalk.yellow(
       ` 
-      Select Currency
+      Select the currency you are using:
         (1) BRAZILIAN REAL
         (2) EUROPEAN EURO
         (3) CANADIAN DOLLAR
@@ -14,7 +14,24 @@ const promptSchemaCurrency = [
         (6) USA DOLLAR
       `
     ),
-    pattern: /^[1-2]+$/,
+    pattern: /^[1-6]+$/,
+    message: chalk.red.italic("Choose only from 1 to 6"),
+    required: true,
+  },
+  {
+    name: "currency",
+    description: chalk.yellow(
+      ` 
+      Select the currency you want to convert to:
+        (1) BRAZILIAN REAL
+        (2) EUROPEAN EURO
+        (3) CANADIAN DOLLAR
+        (4) CHINESE YUAN 
+        (5) JAPANESE YEN
+        (6) USA DOLLAR
+      `
+    ),
+    pattern: /^[1-6]+$/,
     message: chalk.red.italic("Choose only from 1 to 6"),
     required: true,
   },

@@ -15,7 +15,7 @@ const promptSchemaTaxes = [
         (7) USA
       `
     ),
-    pattern: /^[1-2]+$/,
+    pattern: /^[1-7]+$/,
     message: chalk.red.italic("Choose only from 1 to 7"),
     required: true,
   },

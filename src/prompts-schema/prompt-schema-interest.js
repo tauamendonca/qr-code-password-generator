@@ -21,7 +21,7 @@ const promptSchemaInterest = [
         (5) Daily (365 days)
       `
     ),
-    pattern: /^[1-4]+$/,
+    pattern: /^[1-5]+$/,
     message: chalk.red.italic("Choose only from 1 to 5"),
     required: true,
   },

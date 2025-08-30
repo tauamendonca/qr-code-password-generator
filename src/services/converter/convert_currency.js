@@ -1,3 +1,5 @@
+import prompt from "prompt";
+import promptSchemaCurrency from "../../prompts-schema/prompt-schema-currency.js";
 import handle from "./handle.js";
 
 async function convertCurrency() {

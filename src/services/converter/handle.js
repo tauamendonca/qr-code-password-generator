@@ -1,15 +1,16 @@
-async function handle() {
-  let characters = [];
-  let password = "";
+import chalk from "chalk";
 
-  const passwordLength = process.env.PASSWORD_LENGTH;
-
-  for (let i = 0; i < passwordLength; i++) {
-    const index = Math.floor(Math.random() * characters.length);
-    password += characters[index];
+async function handle(err, userResponse) {
+  if (err) {
+    console.log("error on application");
+    return;
   }
 
-  return password;
+  
+  const convertedCurrency = userResponse.currencyTo + userResponse.currencyFrom + userResponse.value;
+
+  console.log(chalk.green("The value is:\n"));
+  console.log(convertedCurrency);
 }
 
 export default handle;
