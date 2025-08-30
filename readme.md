@@ -70,3 +70,8 @@ Além disso, inclui mais três funcionalidades, visto que o foco é e-commerce:
 - Calculadora de juros compostos - uma calculadora de juros que recebe um valor inicial (valor do produto ou investimento), uma taxa de juros anual (em percentual), um período de tempo (em anos ou meses) e a frequência de capitalização (anual, semestral, trimestral, mensal ou diária). Essa calculadora serviria tanto para calcular preços de produtos a prazo com juros compostos quanto para empréstimos/financiamentos.
 
 - Calculadora de taxas - simula a taxação por país, através de valores vindos da variável ambiente e recebendo do usuário o valor do produto que ele deseja calcular e o país para onde irá exportar.
+
+
+## Observação
+
+Mantive as mensagens do sistema em inglês pois o professor estava usando assim. Caso necessário: Principal -> Montante/valor inicial do empréstimo, Annual Rate -> valor anual que o investimento rende ou o empréstimo cresce, Currency -> moeda. Acredito que o restante esteja intuitivo o suficiente com a descrição. 
