@@ -65,9 +65,9 @@ Foram realizadas a seguinte modificação no código, recomendada pelo professor
 - Adicionar uma calculadora de taxas - onde o usuário irá selecionar um país, inserir o valor de um produto e receber como retorno o valor do produto adicionado das tarifas/taxas correspondentes àquele país.
 
 Além disso, inclui mais três funcionalidades, visto que o foco é e-commerce:
-- Conversor de moedas - recebendo valores de uma tabela de valores (simulando receber de uma API), e fazendo a conversão a partir da primeira escolha de moeda do usuário e da inserção do valor a ser convertido em comparação com a segunda escolha de moeda. Os valores de conversão foram atualizados pela última vez em 30/08/2025 (são valores reais).
+- Conversor de moedas - recebendo valores de uma tabela de valores (simulando receber de uma API), e fazendo a conversão a partir da primeira escolha de moeda do usuário e da inserção do valor a ser convertido em comparação com a segunda escolha de moeda. Os valores de conversão foram atualizados pela última vez em 30/08/2025 mas numa API poderiam ser atualizados diariamente.
 
-- Calculadora de juros compostos - uma calculadora de juros que recebe um valor inicial (valor do produto ou investimento), uma taxa de juros anual (em percentual), um período de tempo (em anos ou meses) e a frequência de capitalização (anual, semestral, trimestral, mensal ou diária). Essa calculadora serviria tanto para calcular preços de produtos a prazo com juros compostos quanto para empréstimos/financiamentos.
+- Calculadora de juros compostos - uma calculadora de juros que recebe um valor inicial (valor do produto ou investimento), uma taxa de juros anual (em percentual), um período de tempo (em anos ou meses) e a frequência de capitalização (anual, semestral, trimestral, mensal ou diária). Essa calculadora serviria tanto para calcular preços de produtos a prazo com juros compostos quanto para empréstimos/financiamentos, mas foquei em calcular investimentos.
 
 - Calculadora de taxas - simula a taxação por país, através de valores vindos de uma tabela e recebendo do usuário o valor do produto que ele deseja calcular e o país para onde irá exportar.
 
