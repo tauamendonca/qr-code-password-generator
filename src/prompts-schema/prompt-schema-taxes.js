@@ -2,7 +2,7 @@ import chalk from "chalk";
 
 const promptSchemaTaxes = [
   {
-    name: "select",
+    name: "country",
     description: chalk.yellow(
       ` 
       Select Country 
@@ -20,7 +20,7 @@ const promptSchemaTaxes = [
     required: true,
   },
   {
-    name: "type",
+    name: "value",
     description: chalk.yellow(`Insert the value of your product:`),
     pattern: /^(?!0\.00$)(?:0\.(?:0[1-9]|[1-9]\d)|[1-9]\d{0,9}(?:\.\d{2})?)$/,
     message: chalk.red.italic("Please type a valid number with two decimals like 1.00"),

@@ -16,7 +16,7 @@ async function handle(err, userResponse) {
   let convertedCurrency = baseValue * (currencyTo.value / currencyFrom.value);
   
   console.log(chalk.greenBright(`\nThe conversion of ${baseValue} ${currencyFrom.name} to ${currencyTo.name} is:`));
-  console.log(chalk.green(currencyTo.code + ' ' + convertedCurrency));
+  console.log(chalk.green(currencyTo.code + ' ' + convertedCurrency.toFixed(2)));
 }
 
 export default handle;

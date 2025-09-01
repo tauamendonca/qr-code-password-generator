@@ -8,14 +8,14 @@ const currencies = [
     {ID: '7', name: 'USA Dollar', code: 'US', value: 1},
 ]
 
-const countryTaxes = [
-    {ID: '1', name: 'Brazil', value: 0.1},
-    {ID: '2', name: 'China', value: 0.3},
-    {ID: '3', name: 'England', value: 0.25},
-    {ID: '4', name: 'France', value: 0.15},
-    {ID: '5', name: 'Germany', value: 0.17},
-    {ID: '6', name: 'Japan', value: 0.4},
-    {ID: '7', name: 'USA', value: 0.8},
+const countries = [
+    {ID: '1', name: 'Brazil', tax: 0.1},
+    {ID: '2', name: 'China', tax: 0.3},
+    {ID: '3', name: 'England', tax: 0.25},
+    {ID: '4', name: 'France', tax: 0.15},
+    {ID: '5', name: 'Germany', tax: 0.17},
+    {ID: '6', name: 'Japan', tax: 0.4},
+    {ID: '7', name: 'USA', tax: 0.8},
 ]
 
-export { currencies, countryTaxes }
+export { currencies, countries }
