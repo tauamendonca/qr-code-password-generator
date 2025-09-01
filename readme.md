@@ -7,7 +7,7 @@
       width="100px" 
     />
     <h1>DIO NodeJS - Utilidades para E-Commerce</h1>
-    <h3>Gerador de QRcode e Passwords, cálculo de taxas e conversor de moedas 
+    <h3>Gerador de QRcode e Passwords, cálculo de taxas, conversor de moedas e calculadora de investimento 
   </p>
 </div>
 <!--END_SECTION:header-->
