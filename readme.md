@@ -22,7 +22,7 @@
       </tr>
        <tr>
     <td>
-Conheça o <a href = "https://github.com/digitalinnovationone/formacao-nodejs/tree/main/projeto-qrcode">projeto original</a>, o código que apresento aqui é uma resposta ao projeto proposto pela DIO no bootcamp MeuTudo Mobile Developer<br>
+Conheça o <a href = "https://github.com/digitalinnovationone/formacao-nodejs/tree/main/projeto-qrcode">projeto original</a>, o código que apresento aqui é uma resposta ao projeto e aos desafios propostos pela DIO no bootcamp MeuTudo Mobile Developer, com adições de minha parte<br>
  </td>
       </tr>
 </thead>
